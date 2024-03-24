@@ -1,6 +1,6 @@
-////////////////////// ASSIGNMENT 04 //////////////////////
+////////////////////// CLASS ASSIGNMENT 04 //////////////////////
 //This is the Assignment of Class 06
-//Question: Make a program using Function with multiple arguements and also use if else statements in it.
+//Question: Make a program using Function with multiple arguments and also use if else statements in it.
 //Defined the function with a name "addNumbers" that takes two parameters and return their sum. 
 function addNumbers(num1, num2) {
     return num1 + num2;

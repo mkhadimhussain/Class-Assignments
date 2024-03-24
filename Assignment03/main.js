@@ -1,4 +1,4 @@
-////////////////////// ASSIGNMENT 03 //////////////////////
+////////////////////// CLASS ASSIGNMENT 03 //////////////////////
 //This is the Assignment of Class 05
 //Question: Make a program using Logical Operators (AND "&&", OR "||", NOT "!") and 
 //          Conditional Statements (if, else if, else).

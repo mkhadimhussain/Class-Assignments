@@ -1,4 +1,4 @@
-////////////////////// ASSIGNMENT 02 //////////////////////
+////////////////////// CLASS ASSIGNMENT 02 //////////////////////
 //This is the Assignment of Class 04
 //Question: Make a program program using Camparison Operators but store values in variables.
 //COMPARISON OPERATORS IN VARIABLES

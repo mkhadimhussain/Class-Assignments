@@ -1,4 +1,4 @@
-////////////////////// ASSIGNMENT 01 //////////////////////
+////////////////////// CLASS ASSIGNMENT 01 //////////////////////
 //This is the Assignment of Class 03
 //Question: Print your Bio data and then update it and make some constant variables and try to upddate it.
 var first_name = "M.khadimm Hussain";
