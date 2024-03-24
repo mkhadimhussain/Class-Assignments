@@ -1,6 +1,6 @@
 ////////////////////// ASSIGNMENT 01 //////////////////////
 //This is the Assignment of Class 03
-//Question: Print your Bio data and then update it and make some constant variables.
+//Question: Print your Bio data and then update it and make some constant variables and try to upddate it.
 var first_name = "M.khadimm Hussain";
 var last_name = "Shah";
 console.log("Full Name : ", first_name, last_name);
