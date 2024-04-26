@@ -18,9 +18,3 @@ function myMarksheet(math : number, comp : number, pst : number, eng : number, u
 
 //exporting the function than somebody can import my function and use it
 export default myMarksheet;
-
-
-
-
-
-
