@@ -42,6 +42,7 @@ let b = "TypeScript";
 //-----------------------------------------------------------------------------------
 
 // Primitive Data Types
+// they store individual (single) element (data)
 // Data types which are defined by the developers of TypeScript are known as Primitive Data Types.
 
 // 1. Common Primitive Data Types
@@ -80,6 +81,7 @@ console.log(bb);   // output: 128n
 //-----------------------------------------------------------------------------------
 
 // Non Primitive Data Types
+// they are made by primitive data 
 // These are data types that are not defined by the programming language itself but are instead created by the 
 // programmer using the language's primituve data types. In TypeScript (as in JavaScript), non-primitve data types include:
 
