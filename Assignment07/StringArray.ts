@@ -61,7 +61,7 @@ console.log(allFruits); // Output: [ 'Mango', 'Orange', 'Banana', 'Grapes', 'Pin
 
 // filter() => Creates a new array with elements that pass a test.
 const filterArray : string[] = fruits.filter(fruits => fruits === "Banana");  
-// Filter all elements which are equal to "Banana"
+// Filter all elements which are equal to "Banana" 
 console.log(filterArray);    // Output: [ 'Banana' ]
 
 //------------------------------------------------------------------------------------------
@@ -139,7 +139,7 @@ console.log(stringRepresentation);  // Output: Banana,Grapes,Mango,Orange
 const sumOfFruits: string = fruits.reduce((accumulator, currentValue) => accumulator + currentValue, '');
 // accumulator = which accumulates the result
 // currentValue = the current element being processed in the array
-// 0 = initial value of the accumulator 
+// '' = initial value of the accumulator (empty)
 console.log(sumOfFruits);  // Output: MangoOrangeBananaGrapes
 
 //------------------------------------------------------------------------------------------
