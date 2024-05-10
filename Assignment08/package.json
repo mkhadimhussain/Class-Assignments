@@ -1,0 +1,13 @@
+{
+  "name": "assignment08",
+  "version": "1.0.0",
+  "description": "",
+  "main": "decrement.js",
+  "type": "module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
