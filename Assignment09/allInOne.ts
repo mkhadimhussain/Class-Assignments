@@ -1,3 +1,5 @@
+// All practices in one
+
 const myInfo: {
     name: string,
     age: number,

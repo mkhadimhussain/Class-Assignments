@@ -40,8 +40,8 @@ var car = /** @class */ (function () {
 }());
 var car1 = new car("Honda", "Civic", 2020);
 var car2 = new car("Toyota", "Camry", 2022);
-// console.log(car1);   // Output: car { brand: 'Honda', model: 'Civic', year: 2020 }
-// console.log(car2);   // Output: car { brand: 'Toyota', model: 'Camry', year: 2022 }
+console.log(car1); // Output: car { brand: 'Honda', model: 'Civic', year: 2020 }
+console.log(car2); // Output: car { brand: 'Toyota', model: 'Camry', year: 2022 }
 car1.displayInfo(); // Output: Car: Honda Civic 2020
 car2.displayInfo(); // Output: Car: Toyota Camry 2022
 //------------------------------------------------------------------------------------------------
@@ -83,5 +83,5 @@ var product1 = new product("Laptop", 1200);
 var product2 = new product();
 console.log(product1); // Output: product { name: 'Laptop', price: 1200 }
 console.log(product2); // Output: product { name: 'Unknown', price: 0 }
-product1.displayInfo();
-product2.displayInfo();
+product1.displayInfo(); // Output: Product: Laptop $1200
+product2.displayInfo(); // Output: Product: Unknown $0

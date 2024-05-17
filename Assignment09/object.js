@@ -36,4 +36,4 @@ console.log(myProperties[myname]); // Output: Khadim
 // Square bracket notation is useful when the property name is dynamic, such as when it's stored 
 // in a variable or when the name is not a valid identifier.
 console.log(myProperties.hobbies[0]); // Output: Coding
-console.log(myProperties["hobbies"][1]);
+console.log(myProperties["hobbies"][1]); // Output: Photography

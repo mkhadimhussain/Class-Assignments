@@ -1,4 +1,10 @@
-// Object in Array
+////////////////////// CLASS ASSIGNMENT 09 //////////////////////
+
+//This is the Assignment of Class 11
+
+//Question: Create a program in which object in array and practice constructor function.
+
+// Objects in Array
 
 interface info  {
     id: number;

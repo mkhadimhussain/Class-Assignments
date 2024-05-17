@@ -119,6 +119,3 @@ console.log(product2);  // Output: product { name: 'Unknown', price: 0 }
 
 product1.displayInfo(); // Output: Product: Laptop $1200
 product2.displayInfo(); // Output: Product: Unknown $0
-
-
-

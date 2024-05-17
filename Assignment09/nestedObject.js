@@ -58,4 +58,4 @@ var mynamee = "name";
 console.log(myInfo[mynamee]); // Output: Khadim
 console.log(myInfo["address"]["country"]); // Output: Pakistan
 console.log(myInfo.hobbies[1]); // Output: Gym
-console.log(myInfo["hobbies[0]"]);
+console.log(myInfo["hobbies"[0]]); // Output: undefined

@@ -1,4 +1,7 @@
 // Object in Array
+// An interface in TypeScript is a way to define a contract for the structure of an object.
+// It specifies the properties that an object must have, along with their types. Interfaces 
+// are used to enforce a specific shape or structure on objects in TypeScript
 var studentsInfo = [
     { id: 1, name: "Saif", age: 23, isMarried: false, hobbies: ["Coding", "Reading"] },
     { id: 2, name: "Anas", age: 21, isMarried: false, hobbies: ["Traveling", "Writing"] },
@@ -56,3 +59,11 @@ var employeeDetails = [
     },
 ];
 console.log(employeeDetails[0]);
+// Output
+// {
+//   name: 'Yasir',
+//   age: 23,
+//   isMarried: false,
+//   hobbies: [ 'Reading', 'Writing' ],
+//   address: { house: 12, city: 'Karachi', country: 'Pakistan' }
+// }

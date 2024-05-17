@@ -53,8 +53,3 @@ console.log(myProperties.hobbies[0]); // Output: Coding
 
 console.log(myProperties["hobbies"][1]); // Output: Photography
 
-
-
-
-
-

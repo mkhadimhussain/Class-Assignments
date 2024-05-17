@@ -1,3 +1,4 @@
+// All practices in one
 var myInfo = {
     name: "Khadim",
     age: 23,
@@ -14,8 +15,7 @@ var myInfo = {
         }
     }
 };
-console.log(myInfo["address"]["nearest"]);
-console.log(myInfo.address.nearest);
-// Output: 
-console.log(myInfo.favFruits[0]); // Output: 
-console.log(myInfo["favYears"][1]); // Output: 
+console.log(myInfo["address"]["nearest"]); // Output: { nearTo: 'ABC School', houseNo: 10 }
+console.log(myInfo.address.nearest); // Output: { nearTo: 'ABC School', houseNo: 10 }
+console.log(myInfo.favFruits[0]); // Output: PineApple
+console.log(myInfo["favYears"][1]); // Output: 2022

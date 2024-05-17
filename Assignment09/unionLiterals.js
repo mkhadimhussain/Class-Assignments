@@ -8,14 +8,14 @@ var rollNum;
 rollNum = 12345;
 rollNum = "GIAIC 12345";
 // rollNum = true;     // Shows Error
-console.log(rollNum); // Output:
+console.log(rollNum); // Output: GIAIC 12345 
 // Another Example
 var yesNo;
 // Now variable accepts string, numbers and booleans
 yesNo = "Yes";
 yesNo = 1;
 yesNo = true;
-console.log(yesNo); // Output: 
+console.log(yesNo); // Output: true
 //----------------------------------------------------------------------------------
 console.log();
 // type is a keyword used to define custom types. When you write 
