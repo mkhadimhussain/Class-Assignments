@@ -111,7 +111,7 @@ myAnimal = myDog;     // Valid
 
 //-------------------------------------------------------------------------------------------
 
-// Example 4: Extendign Types
+// Example 4: Extending Types
 type IVehicle = {make: string, model: string};
 type ICar = IVehicle & {numberOfDoors: number};
 
