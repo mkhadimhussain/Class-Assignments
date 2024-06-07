@@ -36,6 +36,8 @@ console.log(direction);   // Output: 0
 // by their corresponding numeric values or string values. This results in no runtime representation of
 // the enum, thus reducing the generated code size and improving performance.
 
+// A const enum member can only be accessed using a string literal. It cannot be accessed by value.
+
 const enum Direction1 {
     Up,
     Down,
@@ -44,6 +46,8 @@ const enum Direction1 {
 }
 let direction1: Direction1 = Direction1.Up;
 console.log(direction1);   // Output: 0
+// console.log(Direction1[2]);  // Error: A const enum member can only be accessed using a string literal.
+
 
 // The compiled JavaScript code for this const enum looks like this:
 
