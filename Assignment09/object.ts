@@ -10,7 +10,7 @@ const myProperties: {
     isMarried: boolean,
     hobbies: string[]
 } = {
-    name: "Khadim",
+    name: "Aslam",
     age: 23,
     address: "ABC 123 Karachi",
     rollNum: 1234,
