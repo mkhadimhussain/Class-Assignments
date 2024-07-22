@@ -30,7 +30,7 @@ console.log(fruits); // Output: [ 'Mango', 'Orange', 'Banana', 'Grapes' ]
 //------------------------------------------------------------------------------------------
 // slice() => Extracts a section of an array and returns a new array.
 var slicedArray = fruits.slice(1, 3);
-console.log(slicedArray); // Output: [ 'Apple', 'Banana' ]
+console.log(slicedArray); // Output: [ 'Orange', 'Banana' ]
 // 1 to 3 => element on index 1 to less then 3.
 // on index 1 there are 'Apple' and on index 2 ther are 'Banana'
 //------------------------------------------------------------------------------------------
@@ -41,7 +41,7 @@ console.log(allFruits); // Output: [ 'Mango', 'Orange', 'Banana', 'Grapes', 'Pin
 //------------------------------------------------------------------------------------------
 // filter() => Creates a new array with elements that pass a test.
 var filterArray = fruits.filter(function (fruits) { return fruits === "Banana"; });
-// Filter all elements which are equal to "Banana"
+// Filter all elements which are equal to "Banana" 
 console.log(filterArray); // Output: [ 'Banana' ]
 //------------------------------------------------------------------------------------------
 // map() => Creates a new array by applying a provided function on every element in the array.
@@ -97,7 +97,7 @@ console.log(stringRepresentation); // Output: Banana,Grapes,Mango,Orange
 var sumOfFruits = fruits.reduce(function (accumulator, currentValue) { return accumulator + currentValue; }, '');
 // accumulator = which accumulates the result
 // currentValue = the current element being processed in the array
-// 0 = initial value of the accumulator 
+// '' = initial value of the accumulator (empty)
 console.log(sumOfFruits); // Output: MangoOrangeBananaGrapes
 //------------------------------------------------------------------------------------------
 // reduceRight() => Similar to reduce(), but processes the array from right to left.

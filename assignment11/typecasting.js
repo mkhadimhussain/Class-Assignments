@@ -5,10 +5,14 @@
 // let abc: string = 4 as unknown  // Error
 // let abc: string = 4 as string   // Error 
 var abc = 44;
-console.log(abc); // Output:
+console.log(abc); // Output: 44
+console.log(typeof abc);
 //-----------------------------------------------------------------------------------------------
 var xyz = 4;
-console.log(xyz); // Output:
+console.log(xyz); // Output: 4
+//-----------------------------------------------------------------------------------------------
+var data;
+var mydata = data;
 //-----------------------------------------------------------------------------------------------
 var value1 = 5;
 var value2 = value1;

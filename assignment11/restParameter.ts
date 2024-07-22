@@ -26,6 +26,7 @@ console.log((sum(2,4,6,8)));  // Output: 20
 // The callback function (total, num) => total + num takes two parameters:
 // 1. total: The accumulator that accumulates the result of the callback function.
 // 2. num: The current element being processed in the array.
+// initial value 0
 
 // For each element in the array, the callback function adds the current element (num) to the
 // accumulated value (total), resulting in the sum of all elements.

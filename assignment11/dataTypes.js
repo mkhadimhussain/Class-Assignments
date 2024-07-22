@@ -17,8 +17,9 @@ var value;
 value = 23;
 value = "Hello";
 if (typeof value === "string") {
-    console.log(value.toLocaleUpperCase()); // 
+    console.log(value.toUpperCase()); // Output: HELLO
 }
+// Another Example
 var val2;
 val2 = 5;
 val2 = "TypeScript";

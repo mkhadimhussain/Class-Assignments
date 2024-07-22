@@ -28,7 +28,7 @@ value = 23;
 value = "Hello";
 
 if (typeof value === "string") {
-    console.log(value.toLocaleUpperCase());  // Output: HELLO
+    console.log(value.toUpperCase());  // Output: HELLO
 }
 
 // Another Example

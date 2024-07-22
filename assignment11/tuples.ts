@@ -10,6 +10,8 @@ myInfo = ["Khadim", 23, true];  // It will not accept any additional data except
 console.log(myInfo);     // Output: [ 'Khadim', 23, true ]
 
 console.log(myInfo[0]);  // Output: Khadim
+console.log(myInfo["1"]); // Output: 23
+
 
 let namee: string = myInfo[0];
 console.log(namee);     // Output: Khadim

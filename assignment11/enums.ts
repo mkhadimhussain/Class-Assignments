@@ -12,9 +12,9 @@
 // Enum can be access by key and value.
 
 enum TrafficLights {
-    "Green",      // default value is 0
-    "Yellow",     // default value is 1
-    "Red",        // default value is 2
+    Green,      // default value is 0
+    Yellow,     // default value is 1
+    Red,        // default value is 2
 }
 // Dot Notation
 console.log(TrafficLights.Green);      // Output: 0 

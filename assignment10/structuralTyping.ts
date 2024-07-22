@@ -38,6 +38,8 @@ let tube = {       // Fresh Object
 sphere = ball;    // Stale Object
 ball = sphere;    // Stale Object
 
+// tube = ball;  // error not acept
+
 console.log(ball);    // { diameter: 10 } 
 console.log(sphere);  // { diameter: 10 } because ball is assigned to sphere
 

@@ -1,4 +1,5 @@
 // for...in loop
+
 // The for...in loop is used to iterate over the properties of an object. 
 // It enumerates over all enumerable properties, including inherited ones 
 // (unless the property is marked as non-enumerable).

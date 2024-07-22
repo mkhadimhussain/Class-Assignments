@@ -6,6 +6,7 @@ var myInfo;
 myInfo = ["Khadim", 23, true]; // It will not accept any additional data except these 3
 console.log(myInfo); // Output: [ 'Khadim', 23, true ]
 console.log(myInfo[0]); // Output: Khadim
+console.log(myInfo["1"]); // Output: 23
 var namee = myInfo[0];
 console.log(namee); // Output: Khadim
 var age = myInfo[1];

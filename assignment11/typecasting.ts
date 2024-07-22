@@ -8,6 +8,7 @@
 // let abc: string = 4 as string   // Error 
 let abc: string = 44 as unknown as string
 console.log(abc);  // Output: 44
+console.log(typeof abc);  // number
 
 //-----------------------------------------------------------------------------------------------
 

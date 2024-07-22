@@ -46,9 +46,9 @@ console.log(fruits);   // Output: [ 'Mango', 'Orange', 'Banana', 'Grapes' ]
 
 // slice() => Extracts a section of an array and returns a new array.
 const slicedArray:string[] = fruits.slice(1,3);
-console.log(slicedArray);  // Output: [ 'Apple', 'Banana' ]
+console.log(slicedArray);  // Output: [ 'Orange', 'Banana' ]
 // 1 to 3 => element on index 1 to less then 3.
-// on index 1 there are 'Apple' and on index 2 ther are 'Banana'
+// on index 1 there are 'Orange' and on index 2 ther are 'Banana'
 
 //------------------------------------------------------------------------------------------
 

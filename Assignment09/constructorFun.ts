@@ -38,7 +38,7 @@ console.log(name2);
 //------------------------------------------------------------------------------------------------
 console.log();
 
-class car {
+class Car {
     brand: string;
     model: string;
     year: number
@@ -55,8 +55,8 @@ class car {
     }
 }
 
-const car1 = new car("Honda", "Civic", 2020);
-const car2 = new car("Toyota", "Camry", 2022);
+const car1 = new Car("Honda", "Civic", 2020);
+const car2 = new Car("Toyota", "Camry", 2022);
 console.log(car1);   // Output: car { brand: 'Honda', model: 'Civic', year: 2020 }
 console.log(car2);   // Output: car { brand: 'Toyota', model: 'Camry', year: 2022 }
 
@@ -66,7 +66,7 @@ car2.displayInfo();  // Output: Car: Toyota Camry 2022
 //------------------------------------------------------------------------------------------------
 console.log();
 
-class person {
+class Person {
     name: string;
     age: number;
     address: {
@@ -83,8 +83,8 @@ class person {
     }
 }
 
-const person1 = new person("Saif", 22, {city: "Karachi", country: "Pakistan"}, ["Reading", "Coding"]);
-const person2 = new person("Zain", 21, {city: "Multan", country: "Pakistan"}, ["Writing", "Gym"]);
+const person1 = new Person("Saif", 22, {city: "Karachi", country: "Pakistan"}, ["Reading", "Coding"]);
+const person2 = new Person("Zain", 21, {city: "Multan", country: "Pakistan"}, ["Writing", "Gym"]);
 
 console.log(person1);
 // Output
@@ -98,7 +98,7 @@ console.log(person1);
 //------------------------------------------------------------------------------------------------
 console.log();
 
-class product {
+class Product {
     name: string;
     price: number;
 
@@ -111,8 +111,8 @@ class product {
         console.log(`Product: ${this.name} $${this.price}`);   
     }
 }
-const product1 = new product("Laptop",1200);
-const product2 = new product();
+const product1 = new Product("Laptop",1200);
+const product2 = new Product();
 
 console.log(product1);  // Output: product { name: 'Laptop', price: 1200 }
 console.log(product2);  // Output: product { name: 'Unknown', price: 0 }
